@@ -1,4 +1,4 @@
-//import java.awt.geom.Rectangle2D;
+import java.awt.geom.Rectangle2D;
 
 //import geom.Rectangle2f;
 
@@ -11,7 +11,6 @@ public abstract class pmqtNode extends Rectangle2D.Float {
 	
 		location = location_in;
 	}
-		
 	
 	public void setLocation(int location_in) { 
 		this.location = location_in; 
@@ -20,7 +19,5 @@ public abstract class pmqtNode extends Rectangle2D.Float {
 	public int getLocation() {
 		return location; 
 	}
-	
-	
 }
 
