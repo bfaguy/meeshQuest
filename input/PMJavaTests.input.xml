@@ -1,0 +1,118 @@
+<commands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.cs.umd.edu/users/meesh/420/spr07/part2/part2in.xsd" spatialWidth="512" spatialHeight="512" pmOrder="3" leafOrder="8">
+<createCity id="1" name="city0" x="89" y="102" radius="0" color="black"/>
+<createCity id="1" name="city1" x="320" y="321" radius="0" color="black"/>
+<createCity id="1" name="city2" x="446" y="397" radius="0" color="black"/>
+<createCity id="1" name="city3" x="190" y="377" radius="0" color="black"/>
+<createCity id="1" name="city4" x="385" y="102" radius="0" color="black"/>
+<createCity id="1" name="city5" x="371" y="22" radius="0" color="black"/>
+<createCity id="1" name="city6" x="441" y="411" radius="0" color="black"/>
+<createCity id="1" name="city7" x="73" y="355" radius="0" color="black"/>
+<createCity id="1" name="city8" x="356" y="277" radius="0" color="black"/>
+<createCity id="1" name="city9" x="183" y="188" radius="0" color="black"/>
+<createCity id="1" name="city10" x="327" y="449" radius="0" color="black"/>
+<createCity id="1" name="city11" x="433" y="433" radius="0" color="black"/>
+<createCity id="1" name="city12" x="137" y="17" radius="0" color="black"/>
+<createCity id="1" name="city13" x="214" y="483" radius="0" color="black"/>
+<createCity id="1" name="city14" x="94" y="42" radius="0" color="black"/>
+<createCity id="1" name="city15" x="438" y="182" radius="0" color="black"/>
+<createCity id="1" name="city16" x="333" y="382" radius="0" color="black"/>
+<createCity id="1" name="city17" x="201" y="494" radius="0" color="black"/>
+<createCity id="1" name="city18" x="268" y="495" radius="0" color="black"/>
+<createCity id="1" name="city19" x="411" y="104" radius="0" color="black"/>
+<createCity id="1" name="city20" x="472" y="386" radius="0" color="black"/>
+<createCity id="1" name="city21" x="142" y="100" radius="0" color="black"/>
+<createCity id="1" name="city22" x="277" y="7" radius="0" color="black"/>
+<createCity id="1" name="city23" x="406" y="420" radius="0" color="black"/>
+<createCity id="1" name="city24" x="446" y="428" radius="0" color="black"/>
+<createCity id="1" name="city25" x="264" y="183" radius="0" color="black"/>
+<createCity id="1" name="city26" x="351" y="97" radius="0" color="black"/>
+<createCity id="1" name="city27" x="8" y="434" radius="0" color="black"/>
+<createCity id="1" name="city28" x="78" y="76" radius="0" color="black"/>
+<createCity id="1" name="city29" x="244" y="407" radius="0" color="black"/>
+<createCity id="1" name="city30" x="188" y="204" radius="0" color="black"/>
+<createCity id="1" name="city31" x="205" y="457" radius="0" color="black"/>
+<createCity id="1" name="city32" x="40" y="240" radius="0" color="black"/>
+<createCity id="1" name="city33" x="139" y="136" radius="0" color="black"/>
+<createCity id="1" name="city34" x="333" y="478" radius="0" color="black"/>
+<createCity id="1" name="city35" x="367" y="376" radius="0" color="black"/>
+<createCity id="1" name="city36" x="412" y="507" radius="0" color="black"/>
+<createCity id="1" name="city37" x="492" y="437" radius="0" color="black"/>
+<createCity id="1" name="city38" x="511" y="303" radius="0" color="black"/>
+<createCity id="1" name="city39" x="311" y="411" radius="0" color="black"/>
+<createCity id="1" name="city40" x="358" y="72" radius="0" color="black"/>
+<createCity id="1" name="city41" x="363" y="12" radius="0" color="black"/>
+<createCity id="1" name="city42" x="53" y="235" radius="0" color="black"/>
+<createCity id="1" name="city43" x="392" y="286" radius="0" color="black"/>
+<createCity id="1" name="city44" x="270" y="141" radius="0" color="black"/>
+<createCity id="1" name="city45" x="265" y="386" radius="0" color="black"/>
+<createCity id="1" name="city46" x="65" y="457" radius="0" color="black"/>
+<createCity id="1" name="city47" x="201" y="169" radius="0" color="black"/>
+<createCity id="1" name="city48" x="85" y="275" radius="0" color="black"/>
+<createCity id="1" name="city49" x="150" y="74" radius="0" color="black"/>
+<createCity id="1" name="city50" x="311" y="19" radius="0" color="black"/>
+<createCity id="1" name="city51" x="27" y="42" radius="0" color="black"/>
+<createCity id="1" name="city52" x="10" y="279" radius="0" color="black"/>
+<createCity id="1" name="city53" x="476" y="81" radius="0" color="black"/>
+<createCity id="1" name="city54" x="376" y="392" radius="0" color="black"/>
+<createCity id="1" name="city55" x="318" y="472" radius="0" color="black"/>
+<createCity id="1" name="city56" x="396" y="192" radius="0" color="black"/>
+<createCity id="1" name="city57" x="498" y="158" radius="0" color="black"/>
+<createCity id="1" name="city58" x="34" y="442" radius="0" color="black"/>
+<createCity id="1" name="city59" x="178" y="21" radius="0" color="black"/>
+<createCity id="1" name="city60" x="304" y="212" radius="0" color="black"/>
+<createCity id="1" name="city61" x="502" y="117" radius="0" color="black"/>
+<createCity id="1" name="city62" x="242" y="381" radius="0" color="black"/>
+<createCity id="1" name="city63" x="277" y="507" radius="0" color="black"/>
+<createCity id="1" name="city64" x="444" y="196" radius="0" color="black"/>
+<createCity id="1" name="city65" x="91" y="69" radius="0" color="black"/>
+<createCity id="1" name="city66" x="27" y="508" radius="0" color="black"/>
+<createCity id="1" name="city67" x="174" y="96" radius="0" color="black"/>
+<createCity id="1" name="city68" x="37" y="330" radius="0" color="black"/>
+<createCity id="1" name="city69" x="139" y="3" radius="0" color="black"/>
+<createCity id="1" name="city70" x="259" y="123" radius="0" color="black"/>
+<createCity id="1" name="city71" x="375" y="362" radius="0" color="black"/>
+<createCity id="1" name="city72" x="445" y="179" radius="0" color="black"/>
+<createCity id="1" name="city73" x="125" y="85" radius="0" color="black"/>
+<createCity id="1" name="city74" x="91" y="30" radius="0" color="black"/>
+<createCity id="1" name="city75" x="282" y="11" radius="0" color="black"/>
+<createCity id="1" name="city76" x="496" y="386" radius="0" color="black"/>
+<createCity id="1" name="city77" x="484" y="427" radius="0" color="black"/>
+<createCity id="1" name="city78" x="281" y="451" radius="0" color="black"/>
+<createCity id="1" name="city79" x="325" y="370" radius="0" color="black"/>
+<createCity id="1" name="city80" x="394" y="228" radius="0" color="black"/>
+<createCity id="1" name="city81" x="102" y="75" radius="0" color="black"/>
+<createCity id="1" name="city82" x="56" y="308" radius="0" color="black"/>
+<createCity id="1" name="city83" x="393" y="395" radius="0" color="black"/>
+<createCity id="1" name="city84" x="445" y="379" radius="0" color="black"/>
+<createCity id="1" name="city85" x="158" y="62" radius="0" color="black"/>
+<createCity id="1" name="city86" x="69" y="404" radius="0" color="black"/>
+<createCity id="1" name="city87" x="259" y="107" radius="0" color="black"/>
+<createCity id="1" name="city88" x="397" y="373" radius="0" color="black"/>
+<createCity id="1" name="city89" x="212" y="411" radius="0" color="black"/>
+<createCity id="1" name="city90" x="25" y="2" radius="0" color="black"/>
+<createCity id="1" name="city91" x="168" y="104" radius="0" color="black"/>
+<createCity id="1" name="city92" x="209" y="64" radius="0" color="black"/>
+<createCity id="1" name="city93" x="57" y="262" radius="0" color="black"/>
+<createCity id="1" name="city94" x="503" y="312" radius="0" color="black"/>
+<createCity id="1" name="city95" x="424" y="9" radius="0" color="black"/>
+<createCity id="1" name="city96" x="222" y="286" radius="0" color="black"/>
+<createCity id="1" name="city97" x="359" y="86" radius="0" color="black"/>
+<createCity id="1" name="city98" x="434" y="331" radius="0" color="black"/>
+<createCity id="1" name="city99" x="18" y="257" radius="0" color="black"/>
+<mapRoad id="1" start="city88" end="city50"/>
+<mapRoad id="1" start="city42" end="city92"/>
+<mapRoad id="1" start="city99" end="city36"/>
+<mapRoad id="1" start="city31" end="city66"/>
+<mapRoad id="1" start="city72" end="city20"/>
+<mapRoad id="1" start="city60" end="city75"/>
+<mapRoad id="1" start="city30" end="city11"/>
+<mapRoad id="1" start="city86" end="city89"/>
+<mapRoad id="1" start="city64" end="city95"/>
+<mapRoad id="1" start="city9" end="city32"/>
+<mapRoad id="1" start="city3" end="city52"/>
+<mapRoad id="1" start="city29" end="city78"/>
+<mapRoad id="1" start="city24" end="city4"/>
+<mapRoad id="1" start="city0" end="city33"/>
+<printPMQuadtree id="1"/>
+<saveMap id="1" name="output"/>
+</commands>

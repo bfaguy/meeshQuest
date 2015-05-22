@@ -1,0 +1,21 @@
+<!DOCTYPE commands SYSTEM "http://www.grace.umd.edu/~chen1279/Spring2006/part4in.dtd">
+<commands autoGraph="false" spatialWidth="64" spatialHeight="64" pmOrder="1" leafOrder="4" bpOrder="4">
+	<createCity name="TL" x="0" y="0" radius="10" color="black"/>
+	<createCity name="BL" x="0" y="64" radius="10" color="black"/>
+	<createCity name="TR" x="64" y="64" radius="10" color="black"/>
+	<createCity name="AC" x="64" y="0" radius="10" color="black"/>
+	<mapRoad start="TL" end="BL"/>
+	<printPMQuadtree/>
+	<mapRoad start="BL" end="TR"/>
+	<printPMQuadtree/>
+	<mapRoad start="TR" end="AC"/>
+	<printPMQuadtree/>
+	<mapRoad start="AC" end="TL"/>
+	<printPMQuadtree/>
+	<mapRoad start="TL" end="TR"/>
+	<printPMQuadtree/>
+	<mapRoad start="TL" end="TR"/>
+	<printPMQuadtree/>
+	<mapRoad start="BL" end="AC"/>
+	<printPMQuadtree/>
+</commands>

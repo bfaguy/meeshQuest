@@ -1,0 +1,55 @@
+<!ELEMENT commands (createCity|clearAll|listCities|mapRoad|rangeCities|printBPTree|
+printPMQuadtree|nearestCity)*>
+
+<!ATTLIST commands
+        autoGraph (true|false) #REQUIRED
+        spatialWidth CDATA #REQUIRED
+        spatialHeight CDATA #REQUIRED
+        pmOrder (1|2|3) #REQUIRED
+        leafOrder CDATA #REQUIRED
+        bpOrder CDATA #REQUIRED
+>
+
+<!ELEMENT createCity EMPTY>
+<!ATTLIST createCity
+        name CDATA #REQUIRED
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+        radius CDATA #REQUIRED
+        color (red|green|blue|yellow|purple|orange|black) #REQUIRED
+>
+
+
+<!ELEMENT clearAll EMPTY>
+
+<!ELEMENT listCities EMPTY>
+<!ATTLIST listCities sortBy (name|coordinate) #REQUIRED>
+
+<!ELEMENT mapRoad EMPTY>
+<!ATTLIST mapRoad   
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT rangeCities EMPTY>
+<!ATTLIST rangeCities
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+        radius CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT printBPTree EMPTY>
+
+<!ELEMENT printPMQuadtree EMPTY>
+
+<!ELEMENT nearestCity EMPTY>
+<!ATTLIST nearestCity
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+>
+
+

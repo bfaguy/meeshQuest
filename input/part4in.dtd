@@ -1,0 +1,101 @@
+<!ELEMENT commands (createCity|deleteCity|clearAll|listCities|mapRoad|unmapRoad|
+rangeCities|printBPTree|printPMQuadtree|nearestCity|nearestRoad|nearestCityToRoad|
+shortestPath|shortestPathAnnotated|nameRange)*>
+
+<!ATTLIST commands
+	autoGraph (true|false) #REQUIRED
+        spatialWidth CDATA #REQUIRED
+        spatialHeight CDATA #REQUIRED
+        pmOrder (1|2|3) #REQUIRED
+        leafOrder CDATA #REQUIRED
+        bpOrder CDATA #REQUIRED
+>
+
+<!ELEMENT createCity EMPTY>
+<!ATTLIST createCity
+        name CDATA #REQUIRED
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+        radius CDATA #REQUIRED
+        color (red|green|blue|yellow|purple|orange|black) #REQUIRED
+>
+
+<!ELEMENT deleteCity EMPTY>
+<!ATTLIST deleteCity
+        name CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT clearAll EMPTY>
+
+<!ELEMENT listCities EMPTY>
+<!ATTLIST listCities 
+sortBy (name|coordinate) #REQUIRED
+>
+
+<!ELEMENT mapRoad EMPTY>
+<!ATTLIST mapRoad   
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
+
+
+<!ELEMENT unmapRoad EMPTY>
+<!ATTLIST unmapRoad   
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT rangeCities EMPTY>
+<!ATTLIST rangeCities
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+        radius CDATA #REQUIRED
+>
+
+
+
+<!ELEMENT printBPTree EMPTY>
+
+<!ELEMENT printPMQuadtree EMPTY>
+
+
+<!ELEMENT nearestCity EMPTY>
+<!ATTLIST nearestCity
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+>
+
+<!ELEMENT nearestRoad EMPTY>
+<!ATTLIST nearestRoad
+        x CDATA #REQUIRED
+        y CDATA #REQUIRED
+>
+
+
+<!ELEMENT nearestCityToRoad EMPTY>
+<!ATTLIST nearestCityToRoad
+         start CDATA #REQUIRED
+         end CDATA #REQUIRED
+>
+
+<!ELEMENT shortestPathAnnotated EMPTY>
+<!ATTLIST shortestPathAnnotated
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
+
+<!ELEMENT shortestPath EMPTY>
+<!ATTLIST shortestPath
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
+
+<!ELEMENT nameRange EMPTY>
+<!ATTLIST nameRange
+        start CDATA #REQUIRED
+        end CDATA #REQUIRED
+>
